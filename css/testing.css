@@ -22,3 +22,7 @@
 #font8 {
     font-family: 'Electrolize', sans-serif;
 }
+
+.deprecated {
+    color: #ddd;
+}
