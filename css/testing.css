@@ -23,10 +23,19 @@
     font-family: 'Electrolize', sans-serif;
 }
 
+body {
+    background: #000;
+    color: white;
+}
+
+p {
+    color: cyan;
+}
+
 .deprecated {
-    color: #ddd;
+    color: #222;
 }
 
 pre {
-    color: darkgreen;
+    color: lime;
 }
