@@ -26,3 +26,7 @@
 .deprecated {
     color: #ddd;
 }
+
+pre {
+    color: darkgreen;
+}
