@@ -22,5 +22,5 @@ pre {
 
 .grid {
     display: grid;
-    grid: 2fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
