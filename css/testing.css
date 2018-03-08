@@ -1,29 +1,5 @@
-#font1 {
-    font-family: 'Righteous', cursive;
-}
-#font2 {
-    font-family: 'Russo One', sans-serif;
-}
-#font3 {
-    font-family: 'Orbitron', sans-serif;
-}
-#font4 {
-    font-family: 'Jura', sans-serif;
-}
-#font5 {
-    font-family: 'Audiowide', cursive;
-}
-#font6 {
-    font-family: 'Monoton', cursive;
-}
-#font7 {
-    font-family: 'Aldrich', sans-serif;
-}
-#font8 {
-    font-family: 'Electrolize', sans-serif;
-}
-
 body {
+    font-family: 'Electrolize', sans-serif;
     background: #000;
     color: white;
 }
@@ -32,10 +8,18 @@ p {
     color: cyan;
 }
 
-.deprecated {
-    color: #333;
-}
-
 pre {
     color: lime;
+}
+
+.outline {
+    border: solid white 3px;
+}
+
+.center {
+    text-align: center;
+}
+
+.side {
+    float: right;
 }
