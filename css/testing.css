@@ -20,6 +20,7 @@ pre {
     text-align: center;
 }
 
-.side {
-    float: right;
+.grid {
+    display: grid;
+    grid: 2fr 1fr;
 }
