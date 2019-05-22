@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	background-color: #111;
+	color: white;
+}
+
+/********************\
+|   NAV BAR STYLES   |
+\********************/
+
+nav {
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+	padding: 0;
+	margin: 0;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+}
+
+nav>p {
+	font-size: 1.5em;
+	padding: 10px;
+	margin: 0;
+}
+
+nav>p>span {
+	font-weight: bold;
+}
+
+/********************\
+|    MAIN CONTENT    |
+\********************/
+
+.cover>img {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.card {
+	margin: 30px;
+	background-color: #222;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: black 0px 0px 10px;
+}
+
+.grid-3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+/********************\
+|   FOOTER CONTENT   |
+\********************/
+
+.footer {
+	color: rgba(255, 255, 255, 0.2);
+	list-style: none;
+	font-size: 15px;
+	margin-bottom: 2em;
+}
+
+.footer>.sub>h5 {
+	color: rgba(255, 255, 255, 0.596);
+	text-align: center;
+	padding: 0;
+}
+
+.footer>.sub>ul {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+.footer>.sub>ul>li>a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.footer>.sub>ul>li>a:hover {
+	text-decoration: underline;
+	color: rgba(255, 255, 255, 0.514);
+}
